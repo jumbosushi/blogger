@@ -6,4 +6,8 @@ class ArticlesController < ApplicationController
     def show
         @article = Article.find_by_id(params[:id])
     end
+
+    def new
+        @article = Article.new
+    end
 end
