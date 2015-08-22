@@ -1,5 +1,7 @@
 module ApplicationHelper
-    def article_params
-        params.require(:article).permit(:titlem, :body)
-    end
+
+end
+
+def article_params
+        params.require(:article).permit(:title, :body)
 end
